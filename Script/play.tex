@@ -1,0 +1,51 @@
+\documentclass[12pt, letterpaper]{memoir}
+\title{The Poetic Personas, The Play}
+\author{Mustafif Khan}
+\date{}
+\usepackage{color}
+\usepackage{hyperref}
+\hypersetup{
+colorlinks=true, % make the links colored
+linkcolor=black, % color TOC links in blue
+urlcolor=red, % color URLs in red
+linktoc=all % 'all' will create links for everything in the TOC
+}
+\usepackage{dramatist}
+\usepackage{calc}
+\usepackage[utf8]{inputenc}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{\thetitle}
+\rhead{\theauthor}
+\rfoot{Page \thepage}
+\begin{document}
+\maketitle
+\pagenumbering{arabic}
+%\newpage
+%\paragraph{Characters}
+\newpage
+\tableofcontents
+%Main Characters 
+\Character[Mustafif - Main Character]{M}{M}
+\Character[Alter Ego - The Madness behind the Mask]{Alter Ego}{AE}
+\Character[Stupid Genius - The Smarts]{Stupid-Genius}{SG}
+%--------------------
+%Side Characters 
+\Character[Doubt-the self doubt]{Doubt}{Doubt}
+\Character[Happiness]{Happiness}{Hap}
+\Character[Therapist-The Advisor in the conscious]{Doc}{Doc}
+\Character[Interviewers-asks questions]{Interviewers}{Inter}
+\Character[Singers- background singers]{Singer}{S}
+%Lighting Cues
+%For now brief descriptions 
+
+
+
+\setlength{\speakswidth}{\widthof{\speaksfont Therapist}}
+\addtolength{\speakswidth}{\Dlabelsep}
+\addtolength{\speaksindent}{\speakswidth}
+
+\act[Relapse]
+
+\end{document}
