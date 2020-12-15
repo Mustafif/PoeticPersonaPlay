@@ -1,0 +1,33 @@
+\contentsline {paragraph}{Author's Note:\\}{2}{section*.1}%
+\contentsline {section}{\numberline {1}Turbulent Troubles}{5}{section.1}%
+\contentsline {section}{\numberline {2}Poet's Poem}{7}{section.2}%
+\contentsline {section}{\numberline {3}Pac in the Head}{8}{section.3}%
+\contentsline {section}{\numberline {4}Waste}{10}{section.4}%
+\contentsline {section}{\numberline {5}Meaningless Life}{12}{section.5}%
+\contentsline {section}{\numberline {6}I'm Okay}{14}{section.6}%
+\contentsline {section}{\numberline {7}Individual}{15}{section.7}%
+\contentsline {section}{\numberline {8}Love Shit}{17}{section.8}%
+\contentsline {section}{\numberline {9}Love Haiku}{19}{section.9}%
+\contentsline {section}{\numberline {10}Picture This}{19}{section.10}%
+\contentsline {section}{\numberline {11}Love}{20}{section.11}%
+\contentsline {section}{\numberline {12}Older}{22}{section.12}%
+\contentsline {section}{\numberline {13}Illusions}{24}{section.13}%
+\contentsline {section}{\numberline {14}Intelligence}{25}{section.14}%
+\contentsline {section}{\numberline {15}I'm Okay Pt 2}{27}{section.15}%
+\contentsline {section}{\numberline {16}Love Pt 2}{29}{section.16}%
+\contentsline {section}{\numberline {17}Beautiful Women}{31}{section.17}%
+\contentsline {section}{\numberline {18}Soul}{32}{section.18}%
+\contentsline {section}{\numberline {19}Love Pt 3}{33}{section.19}%
+\contentsline {section}{\numberline {20}Love in the Petal}{34}{section.20}%
+\contentsline {section}{\numberline {21}I'm Okay Pt 3}{36}{section.21}%
+\contentsline {section}{\numberline {22}Turbulence Rewrite}{38}{section.22}%
+\contentsline {section}{\numberline {23}Impatient}{41}{section.23}%
+\contentsline {section}{\numberline {24}Freedom}{43}{section.24}%
+\contentsline {section}{\numberline {25}F**k You!}{45}{section.25}%
+\contentsline {section}{\numberline {26}History Will Remember This}{47}{section.26}%
+\contentsline {section}{\numberline {27}Corruption}{49}{section.27}%
+\contentsline {section}{\numberline {28}Protest}{52}{section.28}%
+\contentsline {section}{\numberline {29}Terrorism}{54}{section.29}%
+\contentsline {section}{\numberline {30}Sinful Perspectives}{55}{section.30}%
+\contentsline {section}{\numberline {31}Relapse}{56}{section.31}%
+\contentsline {section}{\numberline {32}Turbulent Thoughts Part 2}{58}{section.32}%

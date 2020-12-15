@@ -1,0 +1,419 @@
+\documentclass[12pt, letterpaper]{memoir}
+\title{The Sessions, The Play}
+\author{Mustafif Khan}
+\date{}
+\usepackage{color}
+\usepackage{hyperref}
+\hypersetup{
+colorlinks=true, % make the links colored
+linkcolor=black, % color TOC links in blue
+urlcolor=red, % color URLs in red
+linktoc=all % 'all' will create links for everything in the TOC
+}
+\usepackage{dramatist}
+\usepackage{calc}
+\usepackage[utf8]{inputenc}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{\thetitle}
+\rhead{\theauthor}
+\rfoot{Page \thepage}
+\begin{document}
+\maketitle
+\pagenumbering{arabic}
+%\newpage
+%\paragraph{Characters}
+\newpage
+\tableofcontents
+%Characters
+\Character[Mustafif - a person]{M}{M}
+\Character[Alternate Ego]{Alter Ego}{OM}
+\Character[Therapist - a person]{Therapist}{T}
+\Character[Singers - background singers]{Singers}{Sing}
+
+%Lighting Cues
+\Character[LX Solo- FOH1, LX3 @ Stage Right]{Lx-Solo}{Solo}
+\Character[Lx Therapy Room- FOH1, LX1, LX3 @ Stage R, C, L]{Lx-TR}{TR}
+\Character[Lx Madness- FOH1, LX1 @ Stage R, C, L]{Lx-Madness}{Mad}
+\Character[Lx Multiple]{Lx-Multiple}{LM}
+
+
+
+\setlength{\speakswidth}{\widthof{\speaksfont Therapist}}
+\addtolength{\speakswidth}{\Dlabelsep}
+\addtolength{\speaksindent}{\speakswidth}
+
+\act[]
+\scene[\textit{Technical Cues}]
+\StageDir{
+    \begin{center}
+        Main Lighting Cues
+    \end{center}
+}
+\begin{drama}
+\Solospeaks{This lighting cue is used at any point for M's monologues or any point 
+where he may be speaking to himself.\\\textbf{Position: FOH1, LX3 @ Stage R \& C}}
+\TRspeaks{This lighting cue is used to situate the therapy room, this is used in scenes 
+where M and the Therapist are together.\\\textbf{Position: FOH1, LX1, LX3 @ Stage R, C \& L}}
+\Madspeaks{This lighting cue is used for rambling, when M is going back and forth, 
+it is used to situate this madness.\\\textbf{Position: FOH1, LX1 @ Stage R, C, \& L}}
+\LMspeaks{This will be used to describe multiple lighting transitions. Ex. 
+Solo @ 50\% U3, Madness @ 10\% D2}
+\end{drama}
+\StageDir{
+        If you have not a lighting technician or designer and want to understand these transitions, 
+        a standard lighting cue may look like this: \\
+        LX Cue @ Power Percentage Uptime/Downtime\\
+        To describe the uptime and downtime you may see Ux or Dx where x is the transition time in seconds
+}
+\newpage
+\scene[\textit{Prelude}]
+\StageDir{
+    \begin{center} 
+        Starts with M in his room, sitting at his desk, writing on a notebook.
+     \end{center}
+}
+\begin{drama}
+    \Solospeaks{@ 50\% U3}
+    \Mspeaks{I want to, I just want to\dots tell you something! I just want to\dots please just hear me out! I want to tell you I'm \textit{\%Attempts to say okay\%} FUCK!}
+\end{drama}
+
+\StageDir{
+    \begin{center}
+        Breaks pencil, slamming it on the table. Singers come up wearing all white in the background.
+        M stands up and goes to Madness position once Solo blackouts. 
+    \end{center}
+}
+\begin{drama}
+    \LMspeaks{Solo @ 0\% D2.5, Lx 2 @ 30\% U3, Madness @ 70\% U2.5}
+    \Mspeaks{How can I say words without doubting myself, huh!}
+    \Singspeaks{\textit{He just wants to let you know, He just wants to say!}}
+\end{drama}
+\StageDir{
+    \begin{center}
+        M starts to argure with himself
+    \end{center}
+}
+\begin{drama}
+    \Mspeaks{How can I say words without thinking about the consequences that may be involved!}
+    \OMspeaks{Not a thorough plan, no hide all the evidence, hide it!}
+    \Mspeaks{Oh no, it's all part of the calculations, I have it don't I?}
+    \OMspeaks{Don't kid yourself}
+    \Mspeaks{You fucking said it was gone, you fucking said it was gone! I have depression,
+     fuck! Clinical to the teenagers in our generation, boomers recall it to be non existent 
+     in us. Why because we didn't fight in a war!}
+    \Singspeaks{\textit{Misjudged, cautious of self's chance to hell, ohhh, he asks the lord if he's worthy to be in heaven}}
+    \Mspeaks{I just wished I had someone I can tell all the time. Without being told not to 
+    trust society, it's making me go crazy! I'm scared, I can't do it, I can't tell her, I can't fucking do it!}
+    \Singspeaks{\textit{He asks why, he questions the reality he's living. Society is doing nothing, but to him they're looking down on him}}
+    \OMspeaks{You can't, you can never! Never trust her, because that was 
+    the first mistake you made! You fell in love, and that turned into madness, craziness into insanity, now look at the shit hole you digged yourself!}
+    \Mspeaks{Shut the fuck up! Who did I show my slits to? Tell her my mind was swirling in turbulent thoughts! 
+    I was afraid of seeing tomorrow's promise, who was one of the people who helped me recover!}
+    \OMspeaks{If you recovered, then why are you here!}
+\end{drama}
+\StageDir{
+    \begin{center}
+        M goes down crying on his chair, the desk is moved and the Therapist comes sitting on a chair
+    \end{center}
+}
+\begin{drama}
+    \LMspeaks{Lx 2 @ 0\% D3, Madness @ 0\% D3, TR @ 80\% U3}
+    \Tspeaks{Welcome, you will be here for 15 sessions to help you recover. 
+    After your little incident, I hope I can help you}
+\end{drama}
+\StageDir{
+    \begin{center}
+        Scene ends and move to a Therapist room setting
+    \end{center}
+}
+\begin{drama}
+    \TRspeaks{@ 50\% D3}
+\end{drama}
+\newpage
+\scene[\textit{The Session}]
+\begin{drama}
+    \Tspeaks{So please tell me what's wrong?}
+    \Mspeaks{I....I....I...}
+    \Tspeaks{You know you can tell me anything}
+    \Tspeaks{So please tell me what happened}
+\end{drama}
+\StageDir{M stands up to speak}
+\begin{drama}
+    \LMspeaks{Solo @ 70\% U2}
+    \Mspeaks{I opened a door to the underworld! They told me they'd help me, I regret it! 
+    Demons of my past haunting me! Don't call it paranormal until it takes my soul. 
+    Takes me whole as it swallows...trying to be tranquil...when it's getting me shooked, 
+    hooked on these ideas slowly eating me}
+    \OMspeaks{Welcome to the session}
+\end{drama}
+\StageDir{M sits back down}
+\begin{drama}
+    \LMspeaks{TR @ 70\% U3, Solo 0\% D3}
+    \Tspeaks{So you feel like you still haven't recovered?}
+    \Tspeaks{Depression and suicide still in your mind?}
+    \Mspeaks{Recovering from suicide but depression still in question. 
+    Isolated and feeling hated, insecurities are feeling like a melody, they sing me a song. 
+    I say fuck it to my decision, I ain't talking to her about it!}
+    \Tspeaks{You tend to lie a lot? Is it because you don't like being honest, or are you scared to be?}
+    \LMspeaks{Solo @ 70\% U1.5, TR @ 40\% D1.5}
+    \Mspeaks{Yeah I lie, fucking lie down, act like I'm dead so I can get buried alive! 
+    \%Whispers\% A self defense mechanic, trying to tell but told don't. I'm holding back words, and they're holding me back,
+    hard to share my vision when I'm the only one seeing it. I tell the truth, they're not happy with it! I share a lie, they don't notice, they find out and ask why I did it. 
+    I tell them I didn't notice. \%Whispers\% When I force my mind to forget. \%Preach\% I swear because I'm insecure! I lie because I don't want to show my colours, so I said fuck it! Now I'm in a session!}
+\end{drama}
+\StageDir{Lighting goes back to normal hihlighting M and the Therapist}
+\begin{drama}
+    \Tspeaks{Interesting, very interesting. Well Mr.Khan this is all the time we have, see you in the next session.}
+\end{drama}
+\StageDir{Lights dim, and the Therapist leaves, leaving light focus on M}
+\begin{drama}
+    \Mspeaks{How do I always manage to come back, salute myself back into solitude, I got cold feet
+    in this Tundra of emotions washing on me. Breakdowns leaving me in turbulent troubles, 
+    I ask myself if this girl is even worth the trouble? 
+    Worried and confused about someone else's well being, I forgot to notice mine.
+    Tears showing my fears, I jot them in poems. I learned to draw art
+    in a form of my words, rhyming turning into shades, I sketch ideas for my next drawings, 
+    the portrait of my pain. The anthology of my dark thoughts...}
+\end{drama}
+\StageDir{M sits down, and light comes back to therapist room}
+
+\scene[Social Workers]
+\StageDir{
+    \begin{center}
+    Therapist comes back in
+    \end{center}
+}
+\begin{drama}
+    \Tspeaks{Hello, welcome back! So I wanted to talk about one of your poems?}
+    \Mspeaks{I have over 60 poems, you gotta be more specific?}
+    \Tspeaks{It's in your anthology, Mental Health}
+    \Mspeaks{Well what's wrong?}
+    \Tspeaks{What do you mean by your own knife?}
+    \Mspeaks{I attempted once...I was scared, I just needed to tell someone}
+\end{drama}
+\StageDir{
+    \begin{center}
+        Social workers come in
+    \end{center}
+}
+\begin{drama}
+    \Tspeaks{Tell it to the social workers and I}
+\end{drama}
+\StageDir{\begin{center}
+    Lights go down to 55\% at the Therapist and social workers
+\end{center}}
+\begin{drama}
+    \Mspeaks{Confidentiality ending with suicidal behaviour, so why expect me to talk about suicide? \%Acts Worried\% You see, I have expectations and math makes me so stressed. I lied, I avoided the chance to get professional help with the depression I kept under the rug.
+    It's my problem, how could they help me! Math ended up stressing me a lot, integrals differentiating my mind, the thing is 
+    I ended up not lying...they told me to take deep breaths and relax. Something I tend currently tend to do...listen to Dre while my eyes are closed. 
+    The fact that I'm happy without a slashed wrist bleeding, I call that a recovery, so you know what? 
+    \par Yeah I fucking wrote it, I was scared, and felt alone. I wrote it in rhymes to tell my teacher I was scared I would
+    kill myself! Becoming gluten free, I chose to be anorexhic! Losing 10 pounds in a month, why not be skinnier than a twig?
+    I was confused as hell! Accepting hell was where I belong, I said fuck you to god. But I'm not scared
+    anymore to say I suffered from mental illness...to say it's your choice whether it stays or leaves you!}
+\end{drama}
+\StageDir{\begin{center}
+    Lights at Therapist restore to F
+\end{center}}
+\begin{drama}
+    \Tspeaks{Well we will need to check on you every so often}
+    \Mspeaks{Fair enough, are we done here?}
+    \Tspeaks{Yes, good job today!}
+\end{drama}
+\StageDir{
+    \begin{center}
+      Both leave the room, lights dim  
+    \end{center}
+    }
+\scene[\textit{Political Stupidity}]
+\StageDir{\begin{center}
+    Therapist sits on his chair, M is standing up glancing in a far distance, opposite to the Therapist
+\end{center}}
+\begin{drama}
+    \Tspeaks{So when did you start getting into politics?}
+    \Mspeaks{When I was in 10}
+    \Tspeaks{How about reading newspapers?}
+    \Mspeaks{11}
+    \Tspeaks{How do you feel politics is right now?}
+    \Mspeaks{It's being fucking retarded!}
+\end{drama}
+\StageDir{M faces the Therapist as if he is giving a lecture}
+\begin{drama}
+    \Mspeaks{America is being ran by an orange! Fucking closed by the world, break the door hinge,
+    they're acting extra terrestrial! Get George Lucas, yet another starwars episode coming along. 
+    \par Let's see...evil dictator, crumbling economy, wars??? This is what I call political stupidity!}
+
+    \Tspeaks{So how about abortion? What are your opinions about it?}
+    \Mspeaks{Well a person ain't a person until its born, murder is taking the life of a person.
+    If a women can't take care of it, why have a baby go through so much trouble. A tumbling life, 
+    why gamble on it? If a women got raped, then should this sperm be taped onto her life? White 
+    people please confirm this? Because yet you complain about it, you don't seem to consider innocent 
+    bystander's death, MURDER!} 
+    \Tspeaks{Well, I guess my next question is your views on white people?}
+    \Mspeaks{Well...you can't judge a race by some's actions. Some live by the idea of superiorty, 
+    when white's population makes them feel minor! Calling negros criminals, fucking fat man, trying to fuck up this world, they call it Nagasaki.
+    Fucking colonists! Nazis without a swastika, KGB without the secret, problem is...it's not only white people, it's every person who think they're superior...
+    Nationalistic Ideals....That's what I call political stupidity.}
+\end{drama}
+\StageDir{\begin{center}
+    Lights focussed on M
+\end{center}}
+\begin{drama}
+    \Mspeaks{I always wondered what beauty really means...a word redefined throughout history. Is it to measure 
+    someone's body, how big the boner be....or is it really the personality of the person. Internal and external 
+    are both qualities in our mind, the difference between a pervert and a gentlemen is he knows what's more desired.}
+\end{drama}
+\newpage
+\scene[Intoxicated]
+\StageDir{\begin{center}
+    Lights go back to normal
+\end{center}}
+\begin{drama}
+    \Tspeaks{Please tell me, how do you fell when you meet a nice girl you may like?}
+    \Mspeaks{Well I kinda feel like...}
+\end{drama}
+\StageDir{\begin{center}
+    M stands up
+\end{center}}
+\begin{drama}
+    \Mspeaks{I'm intoxicated, excited to meet this person, did I take heroine? I've never been so exicted to meet someone...it's 
+    very nice to meet you, how could I be fated to see you? Are you my soul mate? For goodness sake forget it, you're probably fake...}
+\end{drama}
+\StageDir{\begin{center}
+    M sits back down
+\end{center}}
+\begin{drama}
+    \Tspeaks{I see...you give up quite easily don't you?}\
+    \Mspeaks{What makes you say that?}
+    \Tspeaks{Hmmm...well tell me more?}
+\end{drama}
+\StageDir{\begin{center}
+    M stands back up
+\end{center}}
+\begin{drama}
+    \Mspeaks{She's leaving me speechless, I feel like I'm going to faint because I may be falling in love with her. 
+    Gravity is bringing me down, her beauty is dragging me down, beauty turning into blushes, I got a new crush! Next thing you
+    know she's just a memory I lost interest in, it can be a week or a year...But this girl is really nice, I got a good feeling about her.}
+    \Tspeaks{So then, do you try to get a date with her or...}
+    \Mspeaks{I don't do shit! Get depressed in a fantasy I settle my self in, not being able to fit in a relationship, I complain I'm lonely!
+    I complain...but the thing is, I didn't do anything...I'm hopeless}
+    \Tspeaks{You can't expect results with no reaction}
+    \Mspeaks{Hmm...I guess, the thing is...I'm intoxicated, this girl is too much for me. So I may or may not do something, but 
+    for now all I can say is...time will tell for what will happen, just wait!}
+\end{drama}
+\StageDir{\begin{center}
+    Lights focussed on M
+\end{center}}
+\begin{drama}
+    \Mspeaks{
+        Love is a funny thing, you think you know everything about it, but really you're clueless as you started.
+        The thing is, it's sometimes the one you care about the most you try to hide your weaknesses to.
+    It's just that I wanted to tell you I'm okay, but as you can tell I locked myself in therapy sessions, trying to get my mind intact, 
+    where did I lose it, maybe I need to investigate that. I complained but didn't act, I kept my anger inside me...it killed me!
+    Those early days I wrote poem after poem, a factory in my mind making mass products, but now it takes weeks to make a line, 
+    so I thought I'd quit. But those early days were coming back, relapsing....sessions happening in my mind....nevermind}
+    \Singspeaks{\textit{He thinks as he has second thoughts fueling his anxiety. He tries to understand his situation 
+    he locked himself in? Trying to understand psychology with his expirmental ideas, creativity leading to his mania}}
+
+    \Mspeaks{I'm having seconds thoughts about our friendship, thinking it will end, who's telling me? \textit{\%Singers: his second thoughts\%}}
+    \OMspeaks{Yeah I'm telling him she's not right for him, trust turning into issues, who's giving him the tissues, guess what it's me, \%gets a tissue and passes to other hand\%
+    here you go!}
+    \Mspeaks{She's not a bitch that's what I'm telling you! Why do we seem so distant and close at times is still in question to me? I questioned and trying to tell my neighbor right here she's alright!
+    My thoughts are spiralling in simulations, I go from calm into a psycho mania with headaches lasting till next month, is my heart beating normal again, 
+    I just had a panic attack today, yesterday and tomorrow. I ask my therapist if I'm going through phases of insanity, but he's 
+    saying it's all in my mind....well no shit right??? Is all this trouble worth it, an endless loop I see myself going through, 
+    but I'm seeing through a tinted window outside because inside I'm not allowed, blocked from my ownself, something is wrong!}
+    \OMspeaks{Fucking idiot, I'm trying to speak some sense into him, like look what ended happening to him a few years back
+    , he let his guard down and it assaulted him so hard his anxiety got an upgrade, making breathing a problem, grab the inhaler he may have asthma!}
+    \Mspeaks{Why don't you shut the fuck up! If we had a weak relationship it would've ended, wouldn't it? If we didn't care about 
+    eachother then why were our backs guarded by eachother, explain your logic that's staying stale, pale pain in the ass!}
+    \OMspeaks{You say what you want! But don't forget how you started your poems!}
+    \Mspeaks{Don't remind me...}
+\end{drama}
+\scene[Early Days]
+\StageDir{
+    \begin{center}
+        Return lights to normal room setting
+    \end{center}
+}
+
+\begin{drama}
+    \Tspeaks{Do you remember how you first started writing poems?}
+    \Mspeaks{Oh weren't those fun, I would write some at home, in the caf or lunch. I just 
+    had all these ideas, and they poured into paper}
+    \Tspeaks{Well, we are going to talk about the Early Days...}
+    \Mspeaks{Do we really have to?}
+    \Tspeaks{Please tell me about it...}
+    \Mspeaks{I was carrying wasted emotions, given a platter to feast upon, I thought seconds weren't enough,
+     I asked what emotion that was, they said depression...well oh shit. Stuck in illusions I didn't want to leave, 
+     I fantasized myself into my own oppression, always tired wanting to sleep. The thing is I liked her, incidentally
+     getting me to know her better. She became a close friend I trusted, helping me with the hidden slits under my watch, 
+     which wrists was it?}
+     \Tspeaks{So what happened next?}
+     \Mspeaks{I wanted more, a fat guy wanting more sweets, us together? Wouldn't that be neat. I talked 
+     about loving her as a sister, yeah a year later....But that I tried multiple times to end our friendship, 
+     after multiple rejections, maybe I was looking at the wrong direction? Right? I was avoiding her, because I had trouble handling it. 
+     If I goddamn hear that name again I'll lose it! Those early days were to blow off steam, I was a kettle 
+     brewing tea constantly, so shut the fuck about them! I'm not proud of them! They're a lil'female pup, a fucking bitch!}
+    
+     \Tspeaks{Well, don't you think you're being a bit too harsh to yourself?}
+
+     \Mspeaks{Bitch....Yeah a bitch! Because...Because they helped me with my stitches right? Helped my eyes get sight again, 
+     yeah what a fucking bitch! A cunt, a little runt on the streets, I was learning how to get back on 
+     my feet after hearing his name everyday, you gotta be fucking kidding me! Oh I remember that, those were 
+     the early days, somehow those poems were my saving grace, yeah I hate them, but that's because I can't relate to them.}
+
+     \Tspeaks{But you still struggle to tell her the truth don't you? You don't like to worry her 
+     don't you?}
+     \Mspeaks{When I'm ready to say, I will...anyways she'll probably be the first to know}
+     \Tspeaks{Then what about your greatest fear, you're not convinced of her predicament are you?}
+     \Mspeaks{I'm not, but thats a conversation we shouldn't need to talk about hopefully}
+    
+\end{drama}
+\StageDir{Solo @ M}
+\begin{drama}
+    \Mspeaks{I'm guessing my chances of living, depression creeping up in the creeks of my flaws, I'm trying to act flawless but okay is never today. 
+    A bitch crying wolf, I'm trying to cry but the only tears dripping is from the people who care about me, 
+    they're worried about my well-being, I'm worried about theirs, never considering mine, now I'm illusions, 
+    egos mixing up, now I'm hallucinating without the weed that we all need to get a little happy, 
+    joint in our own problems, I'm thinking maybe quitting from this is the solution, but now its mission impossible. 
+    Please last project take effect in my life, I read poets poem trying to see where I am as a poet.}
+\end{drama}
+\StageDir{
+    \begin{center}
+        Hold up a paper, and reads poets poem
+    \end{center}}
+\begin{drama}
+    \Mspeaks{I started writing when I was sad
+    Get an idea whenever I felt bad.
+    I never really valued myself,
+    on behalf of me I dedicate poems to those who showed me my value.
+    It was a clue left for me,
+    so, I can see...
+    that there’s more to me
+    and that I have a dream, I can believe!
+    I write poems,
+    giving my hand freedom to write.
+    Endings clashing as my thoughts come to sight,
+    I want to show you my talent.
+    So, as you read on, I’ll leave you silent...
+    I couldn’t believe I am who I am,
+    this sleeve this world puts on me makes me want to cry.
+    To be deceived, as feelings are twirled, I see the fakes that come at me.
+    He who is the one wouldn’t love if loving was the key to money.
+    As solidarity mental confinement can leave a man begging on his knees,
+    please oh god please as he begs for mercy, but what he can’t see.
+    Was the lord and Savior he believed in made him blind?
+    That towards all his kindness, god never existed?
+    He was always free, but this pain fell to his legs,
+    as when he begs it’s for nothing but comfort.
+    That kind of sorts kept fucking with his mind,
+    it was a sign to him...
+    that a poet’s poem can mean a lot, but for you to listen,
+    please get in line, fasten your seat belts because the story has only started!}
+\end{drama}
+\StageDir{TR @ All}
+\scene[The Ever-lasting Dream]
+\end{document}
